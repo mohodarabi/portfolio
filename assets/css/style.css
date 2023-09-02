@@ -432,7 +432,7 @@ main.drake-main {
 .global-color {
     position: fixed;
     left: 0;
-    top: 100px;
+    top: 150px;
     z-index: 100;
 }
 
@@ -1126,6 +1126,10 @@ body .body-overlay {
 
 .skills .skill {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .skills .skill .skill-inner {
@@ -1146,6 +1150,7 @@ body .body-overlay {
 
 .skills .skill .skill-inner img {
     display: block;
+    width: 60%
 }
 
 .skills .skill .skill-inner h1 {
