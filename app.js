@@ -4,11 +4,11 @@ const path = require('path')
 const express = require('express');
 const mongoose = require('mongoose');
 const ejs = require('ejs');
-const connectDB = require('./config/database')
+// const connectDB = require('./config/database')
 
 // Create an instance of Express
 const app = express();
-connectDB()
+// connectDB()
 
 // Set EJS as the template engine
 app.set('view engine', 'ejs')
