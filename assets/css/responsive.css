@@ -146,6 +146,54 @@
 }
 
 @media (max-width: 767px) {
+
+    .facts {
+        margin-top: 2.5rem !important;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .go-to-project-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .drake-main .left-sidebar {
+        width: 95%;
+    }
+
+    .sidebar-header {
+        display: flex;
+        justify-content: center !important
+    }
+
+    .sidebar-header img {
+        width: 30%;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+
+    .global-color {
+        display: none
+    }
+
+    .designation {
+        display: none;
+    }
+
+    .comments-area .comments .comments-list .comment-item .comment-body .comment-content h4 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .comments-area .comments .comments-list .comment-item .comment-body .comment-content h4 .date {
+        margin-left: 26px;
+        margin-top: 10px;
+    }
+
     .icon-menu {
         right: 30px;
         top: 30px;
@@ -320,168 +368,6 @@
     }
 }
 
-@media (max-width: 584px) {
+@media (max-width: 584px) {}
 
-    .facts {
-        margin-top: 2.5rem !important;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .go-to-project-div {
-        display: flex;
-        justify-content: center;
-    }
-
-    .drake-main .left-sidebar {
-        width: 95%;
-    }
-
-    .sidebar-header {
-        display: flex;
-        justify-content: center !important
-    }
-
-    .sidebar-header img {
-        width: 30%;
-    }
-
-    .icon-menu {
-        display: none;
-    }
-
-    .global-color {
-        display: none
-    }
-
-    .designation {
-        display: none;
-    }
-
-
-    .subtitle {
-        margin-bottom: 40px;
-    }
-
-    .section-header h1 {
-        font-size: 38px;
-        line-height: 1.4;
-    }
-
-    .skills-area,
-    .services-area,
-    .resume-area,
-    .about-area,
-    .hero-section {
-        padding-bottom: 0;
-    }
-
-    .hero-section .hero-content h1 {
-        font-size: 50px;
-    }
-
-    .hero-section .hero-content .facts h1 {
-        font-size: 48px;
-        margin-bottom: 25px;
-    }
-
-    .hero-section .hero-content .facts p br {
-        display: none;
-    }
-
-    .hero-section .hero-content .facts {
-        gap: 20px;
-    }
-
-    .resume-area .resume-content .resume-timeline .item {
-        padding-left: 50px;
-    }
-
-    .services-items {
-        grid-template-columns: 1fr;
-    }
-
-    .portfolio-area {
-        padding-top: 40px;
-    }
-
-    .clients-logos .row .col-md-3 {
-        width: 50%;
-    }
-
-    .contact-area {
-        padding-bottom: 80px;
-    }
-
-    .breadcrumb-area .breadcrumb-content h1 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    .comments-area .comments .comments-list .comment-item .comment-body {
-        gap: 15px;
-    }
-
-    .comments-area .comments .comments-list .comment-item .comment-body .comment-avatar {
-        width: 60px;
-        height: 60px;
-    }
-
-    .comments-area .comments .comments-list .comment-item .comment-body .comment-content h4 {
-        margin-bottom: 15px;
-    }
-
-    .comments-area .comments .children {
-        padding-left: 40px;
-    }
-}
-
-@media (max-width: 425px) {
-
-    .facts {
-        margin-top: 2.5rem !important;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .go-to-project-div {
-        display: flex;
-        justify-content: center;
-    }
-
-    .drake-main .left-sidebar {
-        width: 95%;
-    }
-
-    .sidebar-header {
-        display: flex;
-        justify-content: center !important
-    }
-
-    .sidebar-header img {
-        width: 30%;
-    }
-
-    .icon-menu {
-        display: none;
-    }
-
-    .global-color {
-        display: none
-    }
-
-    .designation {
-        display: none;
-    }
-
-    .comments-area .comments .comments-list .comment-item .comment-body .comment-content h4 {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .comments-area .comments .comments-list .comment-item .comment-body .comment-content h4 .date {
-        margin-left: 26px;
-        margin-top: 10px;
-    }
-}
+@media (max-width: 425px) {}
